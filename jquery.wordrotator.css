@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.rotating {
+	display: inline-block;
+	position: relative;
+white-space:nowrap;	
+}
+
+.rotating .front, .rotating .back {
+	position: relative;
+	display: inline-block;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: 1s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration: 1s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	
+
+}
+.rotating .front {
+	left: 0;
+	top: 0;
+	position: absolute;
+	display: inline-block;
+	
+}
+.rotating .front.flipInY {
+	z-index: 1;
+	display: block;
+}
+.rotating .front span {
+	width: auto;
+	position: relative;
+}
+.rotating .back {
+	opacity: 0;
+}
+.rotating .back.flipInY {
+	opacity: 1;
+	z-index: 2;
+}
+
