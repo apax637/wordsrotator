@@ -1,0 +1,33 @@
+{
+  "name": "wordsrotator",
+  "title": "Words Rotator",
+  "description": "A simple text elements rotator plugin.",
+  "keywords": [
+    "text slider",
+    "tetx rotator"
+  ],
+  "version": "0.1.0",
+  "author": {
+    "name": "Andrea Pace",
+    "email" : "dev@andreapace.net",
+    "url": "http://andreapace.net"
+  },
+  "maintainers": [
+    {
+      "name": "Andrea Pace",
+      "email": "dev@andreapace.net"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "homepage": "http://andreapace.co.uk/wordsrotator",
+  "demo": "http://andreapace.co.uk/wordsrotator/examples.html",
+  "issues": "https://github.com/andreapace/wordsrotator/issues",
+  "dependencies": {
+    "jquery": ">=1.5"
+  }
+}

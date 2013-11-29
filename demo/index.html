@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Jquery Words Rotator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Raleway:400,200,700" rel="stylesheet" type="text/css">
+
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/jquery.wordrotator.css">
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    
+    <body>
+
+
+    <div class="container">
+
+    <div class="page-header">
+      <h1>Words Rotator <small>jQuery plugin</small></h1>
+    </div>
+
+ </div>
+    <!-- Static navbar -->
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="installation.html">Installation</a></li>
+              <li><a href="examples.html">Examples</a></li>
+              <li><a href="options.html">Settings</a></li>
+          </ul>
+          <div class="navbar-right"><a class="btn btn-default navbar-btn" href="https://github.com/andreapace/wordsrotator" role="button"><i class="fa fa-github"></i> Download on GitHub</a></div>
+
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+    <div class="container">
+        
+        <div class="panel panel-default">
+          <div class="panel-body box_home">
+            <p class="text-center quote">Hello! I'm a jQuery <span id="boxHomeWords"></span> plugin.</p>        
+          </div>
+        </div>
+    </div>
+
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script src="js/jquery.wordrotator.js"></script>
+        <script src="js/main.js"></script>
+		<script type="text/javascript">
+			$(function () {
+
+				$("#boxHomeWords").wordsrotator({
+					words: ['<i class="fa fa-heart"></i> Lovable', '<i class="fa fa-eye"></i> Eye catching', '<i class="fa fa-thumbs-o-up"></i> Lightweight','<i class="fa fa-star"></i> Customizable','<i class="fa fa-smile-o"></i> Simple'],
+//					words: ['<i class="fa fa-heart"></i> Lovable', '<i class="fa fa-eye"></i> eye catching', '<i class="fa fa-thumbs-o-up"></i> LIghtweight','<i class="fa fa-star"></i> Customizable','<i class="fa fa-smile-o"></i> Simple'],
+				});
+
+            });
+        </script>
+
+
+    </body>
+</html>
+
+
