@@ -43,6 +43,7 @@ Configure
 ============
 ```bash
 $("#myWords").wordsrotator({
+    autoLoop: true,				//auto rotate words
     randomize: false,				//show random entries from the words array
     stopOnHover: false,				//stop animation on hover
     changeOnClick: false,			//force animation run on click

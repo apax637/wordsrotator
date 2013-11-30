@@ -82,7 +82,7 @@
 						};
 					});
 							
-					if (autoLoop) {
+					if (settings.autoLoop) {
 						var t = setInterval(rotate, settings.speed);
 						if (settings.stopOnHover) {
 							cont.hover(function() {
