@@ -1,14 +1,16 @@
 @charset "utf-8";
-/* CSS Document */
 
-
-.rotating {
+.wordsrotator_words {
 	display: inline-block;
 	position: relative;
-white-space:nowrap;	
+	white-space:nowrap;
+    -webkit-transition: width 1s;
+    -moz-transition: width 1s;
+    -o-transition: width 1s;
+    transition: width 1s;	
 }
 
-.rotating .front, .rotating .back {
+.wordsrotator_words .wordsrotator_wordOut, .wordsrotator_words .wordsrotator_wordIn {
 	position: relative;
 	display: inline-block;
 	-webkit-animation-duration: 1s;
@@ -23,26 +25,18 @@ white-space:nowrap;
 	
 
 }
-.rotating .front {
+.wordsrotator_words .wordsrotator_wordOut {
 	left: 0;
 	top: 0;
 	position: absolute;
 	display: inline-block;
 	
 }
-.rotating .front.flipInY {
-	z-index: 1;
-	display: block;
-}
-.rotating .front span {
+.wordsrotator_words .wordsrotator_wordOut span {
 	width: auto;
 	position: relative;
 }
-.rotating .back {
+.wordsrotator_words .wordsrotator_wordIn {
 	opacity: 0;
-}
-.rotating .back.flipInY {
-	opacity: 1;
-	z-index: 2;
 }
 
