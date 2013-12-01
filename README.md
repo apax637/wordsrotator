@@ -20,7 +20,7 @@ Insert into your page's head tag:
 ```
 ### Step 3. Include the CSS3 effects
 
-Choose and build the CSS3 animation effects from Animate.css
+Choose and build the CSS3 animation effects from [Animate.css](https://github.com/daneden/animate.css)
 ```bash
 <link rel="stylesheet" href="animate.css">
 ```
