@@ -25,9 +25,9 @@ Choose and build the CSS3 animation effects from [Animate.css](https://github.co
 <link rel="stylesheet" href="animate.css">
 ```
 ### Step 4. HTML code
-
+```
 <p>An <span id="myWords"></span> a day keeps the doctor away</p>
-
+```
 ### Step 5. Javascript code
 ```bash
 <script type="text/javascript">
