@@ -11,6 +11,9 @@ Five simple steps to install and configure wordsRotator plugin
 ### Step 1. Include jQuery
 
 Include the last version of jQuery
+```bash
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+```
 ### Step 2. Include jQuery Words Rotator Code
 
 Insert into your page's head tag:
