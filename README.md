@@ -53,3 +53,6 @@ $("#myWords").wordsrotator({
     words: ['apple', 'apricot', 'avocado']	//Array of words, it may contain HTML values
 });
 ```
+License
+============
+Wordsrotator is licensed under the [MIT license](http://opensource.org/licenses/MIT).
