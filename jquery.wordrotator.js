@@ -23,13 +23,12 @@
 			animationOut: "flipOutY",
 			speed: 2000
 		};
-		var settings = $.extend({}, defaults, options);
-		var listItem
-		var array_bak = [];
+		var settings = $.extend({}, defaults, options),
+		    listItem,
+		    array_bak = [];
 
 		return this.each(function(){
-			var el = $(this)
-			var cont = $("#" + el.attr("id"));
+			var cont = $(this);
 			var array = [];
 			
 			//if array is not empty
